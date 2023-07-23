@@ -30,7 +30,7 @@ const App = () => {
     };
     try {
       const response = await fetch(
-        'https://bucolic-buttercream-5b6bbb.netlify.app//completions',
+        'https://bucolic-buttercream-5b6bbb.netlify.app/completions',
         options
       );
       const data = await response.json();
